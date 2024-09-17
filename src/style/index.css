@@ -1,0 +1,26 @@
+@import "./base.css";
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .transitionDuration {
+    @apply transition-transform duration-500 ease-in-out;
+  }
+  .inputStyle {
+    @apply bg-transparent border-b-[1px] border-b-white/50 w-full placeholder:uppercase placeholder:text-white/60 placeholder:font-semibold placeholder:tracking-wide outline-none py-4 text-white font-semibold tracking-wide;
+  }
+}
+
+.no-visible-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.no-visible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.active {
+  color: white;
+}

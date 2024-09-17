@@ -1,0 +1,17 @@
+@tailwind base;
+
+@font-face {
+  font-family: "Open Sans", serif;
+  font-weight: 300 800;
+  font-display: block;
+  font-style: normal;
+  src: url("../fonts/sora.woff2");
+}
+
+@font-face {
+  font-family: "Playfair", serif;
+  font-weight: 300 800;
+  font-display: block;
+  font-style: normal;
+  src: url("../fonts/playfair.woff2");
+}
